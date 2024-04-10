@@ -32,7 +32,7 @@
 
   <body>
     <div class="click-closed"></div>
-
+    <!-- Inicio Búsqueda Desplegable -->
     <div class="box-collapse">
       <div class="title-box-d">
         <h3 class="title-d">Buscar Propiedades</h3>
@@ -69,7 +69,8 @@
                 <label class="pb-2" for="city">Region</label>
                 <select
                   class="form-control form-select form-control-a"
-                  id="city">
+                  id="city"
+                >
                   <option>Metropolitana de Santiago</option>
                   <option>Arica y Parinacota</option>
                   <option>Tarapacá</option>
@@ -105,7 +106,9 @@
             </div>
             <div class="col-md-6 mb-2">
               <div class="form-group mt-3">
-                <label class="pb-2" for="Estacionamiento">Tipo de Inmueble</label>
+                <label class="pb-2" for="Estacionamiento"
+                  >Tipo de Inmueble</label
+                >
                 <select
                   class="form-control form-select form-control-a"
                   id="Estacionamiento"
@@ -113,7 +116,6 @@
                   <option>Casa</option>
                   <option>Departamento</option>
                   <option>Parcela</option>
-
                 </select>
               </div>
             </div>
@@ -153,9 +155,9 @@
         </form>
       </div>
     </div>
-    <!-- Búsqueda Desplegable -->
+    <!-- Fin Búsqueda Desplegable -->
 
-    <!-- ======= Header/Navbar ======= -->
+    <!-- =======Navbar ======= -->
     <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
       <div class="container">
         <button
@@ -172,8 +174,14 @@
           <span></span>
         </button>
         <a class="navbar-brand text-brand" href="index.html">
-          <img src="assets/img/toñito_logo.png" alt="Logo" class="img-thumbnail" style="width: 50px; height: auto;">
-          Toñi<span class="color-b">To's</span></a>
+          <img
+            src="assets/img/toñito_logo.png"
+            alt="Logo"
+            class="img-thumbnail"
+            style="width: 50px; height: auto"
+          />
+          Toñi<span class="color-b">To's</span></a
+        >
 
         <div
           class="navbar-collapse collapse justify-content-center"
@@ -185,15 +193,15 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="about.html">Sobre Nosotros</a>
+              <a class="nav-link" href="about.html">Sobre Nosotros</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="property-grid.html">Propiedades</a>
+              <a class="nav-link" href="property-grid.html">Propiedades</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="blog-grid.html">Blog</a>
+              <a class="nav-link" href="blog-grid.html">Blog</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -208,25 +216,34 @@
                 >Pages</a
               >
               <div class="dropdown-menu">
-                <a class="dropdown-item " href="property-single.html"
+                <a class="dropdown-item" href="property-single.html"
                   >Property Single</a
                 >
-                <a class="dropdown-item " href="blog-single.html"
-                  >Blog Single</a
-                >
-                <a class="dropdown-item " href="agents-grid.html"
-                  >Agents Grid</a
-                >
-                <a class="dropdown-item " href="agent-single.html"
+                <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
+                <a class="dropdown-item" href="agent-single.html"
                   >Agent Single</a
                 >
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="contact.html">Contacto</a>
+              <a class="nav-link" href="contact.html">Contacto</a>
             </li>
+
+            <li>
+              
+            </li>  
           </ul>
+
+          
         </div>
+
+        <button
+        type="button"
+        class="btn btn-b-n"
+      >
+        <i class="bi bi-person-circle" style="margin-right: 5px;"></i>Ingresar
+      </button>
 
         <button
           type="button"
@@ -234,7 +251,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
         >
-          <i class="bi bi-search"></i>
+          <i class="bi bi-search" style="margin-right: 5px;"></i> Buscar
         </button>
       </div>
     </nav>
@@ -246,22 +263,21 @@
         <div
           class="swiper-slide carousel-item-a intro-item bg-image"
           style="background-image: url(assets/img/slide-1.jpg)"
-          >
+        >
           <div class="overlay overlay-a"></div>
           <div class="intro-content display-table">
             <div class="table-cell">
               <div class="container">
                 <div class="row">
                   <div class="col-lg-8">
-                    <div class="intro-body">  
+                    <div class="intro-body">
                       <p class="intro-title-top">
                         San Miguel, <br />
                         Santiago
                       </p>
-                      <h1 class="intro-title mb-4 ">
+                      <h1 class="intro-title mb-4">
                         <span class="color-b">921 </span> Varas Mena
                         <br />
-                        
                       </h1>
                       <p class="intro-subtitle intro-price">
                         <a href="property-single.html"
@@ -292,12 +308,10 @@
                       </p>
                       <h1 class="intro-title mb-4">
                         <span class="color-b">9423 </span> Av. La Florida <br />
-                         
                       </h1>
                       <p class="intro-subtitle intro-price">
                         <a href="av-laflorida.html">
                           <span class="price-a">Venta | UF $ 12.000</span>
-                        
                         </a>
                       </p>
                     </div>
@@ -350,8 +364,7 @@
             <div class="col-md-12">
               <div class="title-wrap d-flex justify-content-between">
                 <div class="title-box">
-                  <h2 class="title-a">Nuestros Servicios
-                  </h2>
+                  <h2 class="title-a">Nuestros Servicios</h2>
                 </div>
               </div>
             </div>
@@ -367,10 +380,14 @@
                     <h2 class="title-c">Medios de Pago</h2>
                   </div>
                 </div>
-                <div class="card-body-c"> 
+                <div class="card-body-c">
                   <p class="content-c">
-                    Ofrecemos diversas facilidades como subsidios, opciones de financiamiento flexibles y descuentos en el pie,
-                     para que puedas encontrar la vivienda ideal de acuerdo a tus necesidades y posibilidades económicas. Nuestro equipo está aquí para guiarte en cada paso del proceso y hacer que alcanzar tu hogar soñado sea más fácil que nunca.
+                    Ofrecemos diversas facilidades como subsidios, opciones de
+                    financiamiento flexibles y descuentos en el pie, para que
+                    puedas encontrar la vivienda ideal de acuerdo a tus
+                    necesidades y posibilidades económicas. Nuestro equipo está
+                    aquí para guiarte en cada paso del proceso y hacer que
+                    alcanzar tu hogar soñado sea más fácil que nunca.
                   </p>
                 </div>
                 <div class="card-footer-c">
@@ -393,8 +410,13 @@
                 </div>
                 <div class="card-body-c">
                   <p class="content-c">
-                    En nuestro servicio, nos comprometemos a entregar tu hogar en las fechas acordadas y somos flexibles con los horarios para garantizar tu comodidad. Sabemos lo importante que es para ti tener tu propio espacio, por eso trabajamos diligentemente para cumplir con 
-                    tus expectativas y hacer que el proceso de adquisición o arrendamiento sea lo más fluido posible.
+                    En nuestro servicio, nos comprometemos a entregar tu hogar
+                    en las fechas acordadas y somos flexibles con los horarios
+                    para garantizar tu comodidad. Sabemos lo importante que es
+                    para ti tener tu propio espacio, por eso trabajamos
+                    diligentemente para cumplir con tus expectativas y hacer que
+                    el proceso de adquisición o arrendamiento sea lo más fluido
+                    posible.
                   </p>
                 </div>
                 <div class="card-footer-c">
@@ -417,9 +439,12 @@
                 </div>
                 <div class="card-body-c">
                   <p class="content-c">
-                    Entendemos que tu hogar es más que solo un lugar para vivir; es donde creas recuerdos,
-                    compartes momentos especiales y construyes tu futuro. Por eso, nos esforzamos por ofrecerte propiedades 
-                    que no solo cumplen con tus necesidades básicas, sino que también se adaptan a tu estilo de vida y te brindan la comodidad y la calidad que mereces.
+                    Entendemos que tu hogar es más que solo un lugar para vivir;
+                    es donde creas recuerdos, compartes momentos especiales y
+                    construyes tu futuro. Por eso, nos esforzamos por ofrecerte
+                    propiedades que no solo cumplen con tus necesidades básicas,
+                    sino que también se adaptan a tu estilo de vida y te brindan
+                    la comodidad y la calidad que mereces.
                   </p>
                 </div>
                 <div class="card-footer-c">
@@ -643,7 +668,7 @@
                           <a href="property-single.html"
                             >756 Volcán Choshuenco,<br />
                             San Bernardo</a
-                          > 
+                          >
                         </h2>
                       </div>
                       <div class="card-body-a">
@@ -731,8 +756,10 @@
                   </div>
                   <div class="card-body-d">
                     <p class="content-d color-text-a">
-                      Confía en mí para encontrar tu primera casa ideal. Con mi experiencia y compromiso, 
-                      te guiaré en todo el proceso para que encuentres un hogar que se ajuste a tus necesidades y sueños.
+                      Confía en mí para encontrar tu primera casa ideal. Con mi
+                      experiencia y compromiso, te guiaré en todo el proceso
+                      para que encuentres un hogar que se ajuste a tus
+                      necesidades y sueños.
                     </p>
                     <div class="info-agents color-a">
                       <p><strong>Num: </strong> +569 3569 4234</p>
@@ -890,160 +917,6 @@
         </div>
       </section>
       <!-- End Agents Section -->
-
-      <!-- ======= Latest News Section ======= -->
-      <section class="section-news section-t8">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="title-wrap d-flex justify-content-between">
-                <div class="title-box">
-                  <h2 class="title-a">Latest News</h2>
-                </div>
-                <div class="title-link">
-                  <a href="blog-grid.html"
-                    >All News
-                    <span class="bi bi-chevron-right"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="news-carousel" class="swiper">
-            <div class="swiper-wrapper">
-              <div class="carousel-item-c swiper-slide">
-                <div class="card-box-b card-shadow news-box">
-                  <div class="img-box-b">
-                    <img
-                      src="assets/img/post-2.jpg"
-                      alt=""
-                      class="img-b img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-header-b">
-                      <div class="card-category-b">
-                        <a href="#" class="category-b">House</a>
-                      </div>
-                      <div class="card-title-b">
-                        <h2 class="title-2">
-                          <a href="blog-single.html"
-                            >House is comming <br />
-                            new</a
-                          >
-                        </h2>
-                      </div>
-                      <div class="card-date">
-                        <span class="date-b">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End carousel item -->
-
-              <div class="carousel-item-c swiper-slide">
-                <div class="card-box-b card-shadow news-box">
-                  <div class="img-box-b">
-                    <img
-                      src="assets/img/post-5.jpg"
-                      alt=""
-                      class="img-b img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-header-b">
-                      <div class="card-category-b">
-                        <a href="#" class="category-b">Travel</a>
-                      </div>
-                      <div class="card-title-b">
-                        <h2 class="title-2">
-                          <a href="blog-single.html"
-                            >Travel is comming <br />
-                            new</a
-                          >
-                        </h2>
-                      </div>
-                      <div class="card-date">
-                        <span class="date-b">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End carousel item -->
-
-              <div class="carousel-item-c swiper-slide">
-                <div class="card-box-b card-shadow news-box">
-                  <div class="img-box-b">
-                    <img
-                      src="assets/img/post-7.jpg"
-                      alt=""
-                      class="img-b img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-header-b">
-                      <div class="card-category-b">
-                        <a href="#" class="category-b">Park</a>
-                      </div>
-                      <div class="card-title-b">
-                        <h2 class="title-2">
-                          <a href="blog-single.html"
-                            >Park is comming <br />
-                            new</a
-                          >
-                        </h2>
-                      </div>
-                      <div class="card-date">
-                        <span class="date-b">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End carousel item -->
-
-              <div class="carousel-item-c swiper-slide">
-                <div class="card-box-b card-shadow news-box">
-                  <div class="img-box-b">
-                    <img
-                      src="assets/img/post-3.jpg"
-                      alt=""
-                      class="img-b img-fluid"
-                    />
-                  </div>
-                  <div class="card-overlay">
-                    <div class="card-header-b">
-                      <div class="card-category-b">
-                        <a href="#" class="category-b">Travel</a>
-                      </div>
-                      <div class="card-title-b">
-                        <h2 class="title-2">
-                          <a href="#"
-                            >Travel is comming <br />
-                            new</a
-                          >
-                        </h2>
-                      </div>
-                      <div class="card-date">
-                        <span class="date-b">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End carousel item -->
-            </div>
-          </div>
-
-          <div class="news-carousel-pagination carousel-pagination"></div>
-        </div>
-      </section>
-      <!-- End Latest News Section -->
-
-     
     </main>
     <!-- End #main -->
 
@@ -1058,16 +931,19 @@
               </div>
               <div class="w-body-a">
                 <p class="w-text-a color-text-a">
-                  Nuestra corredora se compromete a facilitar transacciones inmobiliarias de manera transparente 
-                  y profesional, ofreciendo un servicio excepcional a nuestros clientes y promoviendo la inversión 
-                  responsable en el sector. Aspiramos a liderar el mercado inmobiliario, destacándonos por nuestra 
-                  integridad, experiencia y dedicación a la satisfacción del cliente
+                  Nuestra corredora se compromete a facilitar transacciones
+                  inmobiliarias de manera transparente y profesional, ofreciendo
+                  un servicio excepcional a nuestros clientes y promoviendo la
+                  inversión responsable en el sector. Aspiramos a liderar el
+                  mercado inmobiliario, destacándonos por nuestra integridad,
+                  experiencia y dedicación a la satisfacción del cliente
                 </p>
               </div>
               <div class="w-footer-a">
                 <ul class="list-unstyled">
                   <li class="color-a">
-                    <span class="color-text-a">Email </span> toñitos@corredora.com
+                    <span class="color-text-a">Email </span>
+                    toñitos@corredora.com
                   </li>
                   <li class="color-a">
                     <span class="color-text-a">Teléfono </span> +569 3564 45234
@@ -1089,7 +965,8 @@
                       <a href="#">Ubicación</a>
                     </li>
                     <li class="item-list-a">
-                      <i class="bi bi-chevron-right"></i> <a href="#">Términos y condiciones</a>
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Términos y condiciones</a>
                     </li>
                     <li class="item-list-a">
                       <i class="bi bi-chevron-right"></i>
@@ -1124,7 +1001,7 @@
                     <a href="#">Sede Arica</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> 
+                    <i class="bi bi-chevron-right"></i>
                     <a href="#">Sede La Serena</a>
                   </li>
                   <li class="item-list-a">
@@ -1134,12 +1011,10 @@
                   <li class="item-list-a">
                     <i class="bi bi-chevron-right"></i>
                     <a href="#">Sede Viña del Mar</a>
-
                   </li>
                   <li class="item-list-a">
                     <i class="bi bi-chevron-right"></i>
                     <a href="#">Sede Valdivia</a>
-
                   </li>
                   <li class="item-list-a">
                     <i class="bi bi-chevron-right"></i>
@@ -1202,7 +1077,8 @@
             <div class="copyright-footer">
               <p class="copyright color-text-a">
                 &copy; Copyright
-                <span class="color-a">Toñito's</span> Todos los derechos reservados.
+                <span class="color-a">Toñito's</span> Todos los derechos
+                reservados.
               </p>
             </div>
             <div class="credits">
