@@ -59,13 +59,13 @@
         Entonces si cambio el color del bg a verde, el container de la imgen y el slogan siguen en primary.
         Terminé por borrar la clase bg, porque no me interesaba tener color.
         -->
-        <div class="container-sm">
+        <div class="container-sm margen:">
 
         <!--Los container se agrandan a medida que crece la pantalla,
            puedes controlar su padding (Derecha o Izquierda) los cuales
             miden el espacio entre el contenido y el contenedor-->
             
-          <div class="row gy-4 ">
+          <div class="row gy-4 align-items-center ">
             <!-- Aquí había un align-items-center
               , pero se lo saqué por que se veía 
               bonito sin margen arriba
@@ -83,19 +83,23 @@
 
 
                 <div class="col-12 col-xl-9">
+                  <div class ="logo-top"> <!-- Aquí le puse esta clase, para darle el margin top, pq no entendí 
+                  como hacerlo desde bootstrap pipipi-->
                   <img
                     class="img-fluid rounded mb-4"
                     loading="lazy"
                     src="assets/img/toñito_logo.png"
                     width="245"
                     height="80"
-                    alt="Toñito'sLogo"
-                  />
-                  <hr class="border-primary-subtle mb-4" />
-                  <h2 class="h1 mb-4">
-                    Construyendo sueños, encontrando hogares .
+                    alt="Toñito's Logo"
+                  /></div>
+                  <hr class="border-light-subtle mb-8" /><!--rayita que hay entre el toñito's y el eslogan, está definido en el css,
+                  pero no lo encuentro!!! T.T-->
+
+                  <!-- aqui es donde tomo la terrible decisión de invertir los colores, pero voy a hacer un commit antes-->
+                  <h2 class="textocolor mb-4"> Toñito's
                   </h2>
-                  <p class="lead mb-5">
+                  <p class="textocolor mb-5">
                     Tu hogar, nuestro compromiso. Encuentra el lugar perfecto
                     con nosotros.
                   </p>

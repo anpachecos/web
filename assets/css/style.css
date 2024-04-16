@@ -9,9 +9,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.textocolor{
+  color: whitesmoke;
+
+}
 .text-bg-colorEmpresa{
   background-color: #2eca6a;
 
+}
+
+.logo-top{
+  margin-top: 10px;
 }
 
 .bg-primary{
