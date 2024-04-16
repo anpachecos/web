@@ -9,8 +9,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.btn-primary {
+  background-color: #2eca6a;
+  border-color: #2eca6a;
+}
 
+.color-text-a{
+  text-align: justify;
 
+}
+
+.form-check-input:checked {
+  background-color: #2eca6a; 
+  border-color: #2eca6a; 
+}
 
 .content-c{
   text-align: justify;
