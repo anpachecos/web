@@ -9,6 +9,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.text-bg-colorEmpresa{
+  background-color: #2eca6a;
+
+}
+
+.bg-primary{
+  background-color: #2eca6a;
+
+}
+
+
 .btn-primary {
   background-color: #2eca6a;
   border-color: #2eca6a;
