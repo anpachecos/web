@@ -41,6 +41,73 @@
   </head>
 
   <body>
+
+        <!-- =======Navbar ======= -->
+        <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+          <div class="container">
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarDefault"
+              aria-controls="navbarDefault"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a class="navbar-brand text-brand" href="index.html">
+              <img
+                src="assets/img/toñito_logo.png"
+                alt="Logo"
+                class="img-thumbnail"
+                style="width: 50px; height: auto"
+              />
+              Toñi<span class="color-b">To's</span></a
+            >
+    
+            <div
+              class="navbar-collapse collapse justify-content-center"
+              id="navbarDefault"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="property-grid.html">Propiedades</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+    
+                <li></li>
+              </ul>
+            </div>
+    
+            <a href="ingresar.html" class="btn btn-b-n">
+              <i class="bi bi-person-circle" style="margin-right: 5px;"></i>Ingresar
+            </a>  
+    
+            <button
+              type="button"
+              class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+            >
+              <i class="bi bi-search" style="margin-right: 5px;"></i> Buscar
+            </button>
+          </div>
+        </nav>
+        <!-- Final Navbar -->
     <!-- ======= CREO QUE DEBERÍA IR UN BOTÓN DE BACK AQUI :/ ======= -->
 
     <main id="main">
@@ -59,13 +126,13 @@
         Entonces si cambio el color del bg a verde, el container de la imgen y el slogan siguen en primary.
         Terminé por borrar la clase bg, porque no me interesaba tener color.
         -->
-        <div class="container-sm margen:">
+        <div class="container-sm">
 
         <!--Los container se agrandan a medida que crece la pantalla,
            puedes controlar su padding (Derecha o Izquierda) los cuales
             miden el espacio entre el contenido y el contenedor-->
             
-          <div class="row gy-4 align-items-center ">
+          <div class="row gy-4 logo-top">
             <!-- Aquí había un align-items-center
               , pero se lo saqué por que se veía 
               bonito sin margen arriba
@@ -75,35 +142,27 @@
 
             <div class="col-12 col-6 col-xl-7"> <!-- col: espacio entre elementes, en forma de columna |   |  
             El primer col es la parte azul, la segunda no lo sé y el col 3 no lo entendí -->
-              <div class="d-flex justify-content-center text-bg-light">
+              <div class="d-flex justify-content-center text-bg-colorEmpresa">
                 <!-- Aqui!!!! en este text, es donde está el color que quiero cambiar =)
                 Antes había un text-bg-secondary, pero yo le cambié el nombre a text-bg-colorEmpresa
               , me es más fácil identificarlo así. 
             En el CSS, le di el color de la empresa, ahora ya no es azul, es verde claro-->
 
 
-                <div class="col-12 col-xl-9">
-                  <div class ="logo-top"> <!-- Aquí le puse esta clase, para darle el margin top, pq no entendí 
-                  como hacerlo desde bootstrap pipipi-->
+                <div class="col-12 col-xl-9 logo-top">
                   <img
                     class="img-fluid rounded mb-4"
                     loading="lazy"
                     src="assets/img/toñito_logo.png"
-                    width="100%"
-                    height="100%"
-                    alt="Toñito's Logo"
-                    style="width: 50%; height: auto"
-
-                  /> Toñi<span class="color-b">To's</span>
-                
-                </div>
-                  <hr class="border-light-subtle mb-8" /><!--rayita que hay entre el toñito's y el eslogan, está definido en el css,
-                  pero no lo encuentro!!! T.T-->
-
-                  <!-- aqui es donde tomo la terrible decisión de invertir los colores, pero voy a hacer un commit antes-->
-                  <h2 class="textocolor mb-4"> Toñito's
+                    width="245"
+                    height="80"
+                    alt="Toñito'sLogo"
+                  />
+                  <hr class="border-black-subtle mb-4" />
+                  <h2 class="h1 mb-4 textocolor">
+                    Construyendo sueños, encontrando hogares .
                   </h2>
-                  <p class="textocolor mb-5">
+                  <p class="lead mb-5 textocolor">
                     Tu hogar, nuestro compromiso. Encuentra el lugar perfecto
                     con nosotros.
                   </p>
